@@ -1,0 +1,90 @@
+
+
+.one{
+    color: black;
+    border-color: black;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#name{
+    color:rebeccapurple;
+    
+    font-size:medium
+    
+    
+}
+
+
+.two{
+    font-size: 20px;
+    text-align: 
+    
+
+}
+
+#age{
+    font-size: medium;
+
+}
+
+
+.three{
+
+    font-size: 20px;
+    text-align: 
+    
+}
+
+#email{
+
+    font-size: medium;
+
+
+}
+
+.four{
+    font-size: 20px;
+    text-align: 
+    
+
+}
+
+
+#password{
+
+    font-size: medium;
+
+
+}
+
+.five{
+    font-size: 20px;
+    text-align: 
+    
+
+
+}
+
+
+.six{
+    font-size: 20px;
+    text-align: 
+    
+
+
+}
+
+div{
+    
+    background-color:rgb(212, 31, 212);
+    padding-right: 200px; 
+    padding-left: 200px;  
+ 
+    height: 400px;
+    width: 400px;
+    opacity:70%;
+    
+
+}
