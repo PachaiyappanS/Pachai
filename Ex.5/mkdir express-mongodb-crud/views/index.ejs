@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <head>
+
+          <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+          <title>Students</title>
+
+          <link rel="stylesheet" href="/styles.css">
+
+</head>
+
+<body>
+
+          <h1>All Students</h1>
+
+          <ul>
+
+                     <% students.forEach(student => { %>
+
+<li><%= student.name %> - <%= student.age %> years old, Grade: <%= student.grade %>,
+        <%= student.dob %>, <%= student.rollno %>, <%= student.height %>, <%= student.weight %>, <%= student.bloodgroup %>
+</li>
+
+                     <% }) %>
+
+          </ul>
+
+          <a href="/add">Add Student</a>
+
+ </body>
+
+</html>
