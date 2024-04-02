@@ -54,9 +54,9 @@ app.get('/add', (req, res) => { res.render('form'); });
 
  app.post('/add', async (req, res) => {
 
-const { name, age, grade } = req.body;
+const { name, age, grade, dob, rollno, height, weight, bloodgroup } = req.body;
 
-const student = new Student({ name, age, grade });
+const student = new Student({ name, age, grade, dob, rollno, height, weight, bloodgroup });
 
 try {
 
