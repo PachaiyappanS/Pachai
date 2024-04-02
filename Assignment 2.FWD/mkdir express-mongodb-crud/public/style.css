@@ -1,0 +1,23 @@
+h1{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    font: 100;
+}
+
+
+title{
+    backface-visibility: hidden;
+    border-width: 20px;
+    height: auto;
+    width: 20cm;
+    
+}
+
+body{
+
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-color: brown;
+}
